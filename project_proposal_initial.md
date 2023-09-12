@@ -1,0 +1,11 @@
+/#### SERX94: Project Proposal/
+#### The emergence of book subgenres
+#### Dallin Wallace
+#### 9/11/2023
+
+Keywords: Books, Genre, Subgenre
+Description: I want to analyze data about books. I found an API with openlibrary that can give me books based on subject/genre. I am currently thinking about analyzing the emergence of specific subgenres by getting a list of books from some subgenres from the site and analyzing the publication dates of the books. I might pivot to analyzing something else about books if the data isn't good enough.  
+Intellectual Merit: This knowledge will help authors discover which subgenres they can consider writing and gaining traction. It will show which genres are growing.
+Data Sourcing: The openlibrary API is the best data source I can find.
+Background Knowledge: 1. The documentation for the openlibrary API: https://openlibrary.org/developers. 2.How to use APIs in Python by Jason Van Schooneveld on RealPython.com: https://realpython.com/api-integration-in-python/ 3. I will also need an article such as this one, written by Tonya Thompson on servicescape.com about subgenres. There are several similar articles for me to pull a variety of subgenres from. https://www.servicescape.com/blog/144-genres-and-subgenres-for-fiction-writing
+Related Work: This article on methods to categorize a mystery story's subgenre based on the contents of the mystery and what readers expect from the subgenre: Oliver. (2020). Cozies, Capers, and Other Criminal Endeavors Utilizing Taxonomies of Mystery Fiction to Improve Genre Access. Library Resources & Technical Services, 64(4), 152–164. https://doi.org/10.5860/lrts.64n4.152-164. This article that is a holisitc look at what genres are and how they are helpful in the book industry: Berglund, K. (2021). Genres at work: A holistic approach to genres in book publishing, covering why publishers use genres, how readers understand them, and how they have evolved over time.. European Journal of Cultural Studies, 24(3), 757–776. https://doi.org/10.1177/13675494211006097.
