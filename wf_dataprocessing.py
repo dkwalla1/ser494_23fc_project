@@ -30,6 +30,7 @@ def munge_data(books):
         'num_ratings_max': -1,
 
         'series_percent': -1,
+        'series_num': 0,
         'count': 0,
         'books' : {
             #title
@@ -46,8 +47,10 @@ def munge_data(books):
         rows = book.split('\n')
         title = rows[2]
         series = False
+        series_num = 0.0
         if '#' in title:
            series = True 
+           series_num = 1.0
         author = rows[7]
         shelved = re.findall('\d', rows[12])
         shelved = ''.join(map(str, shelved))
@@ -75,9 +78,6 @@ def munge_data(books):
             'num_ratings': num_ratings,
             'series': series
         }
-        series_num = 0
-        if (series):
-            series_num = 1
         
         count = p_books['count']
         if count == 0:
@@ -98,30 +98,32 @@ def munge_data(books):
             p_books['num_ratings_max'] = num_ratings
 
             p_books['series_percent'] = series_num
+        else:
+            p_books['shelved_avg'] = ((p_books['shelved_avg'] * count) + shelved) / (count+1)
+            p_books['shelved_min'] = min(p_books['shelved_min'], shelved)
+            p_books['shelved_max'] = max(p_books['shelved_max'], shelved)
 
-        p_books['shelved_avg'] = ((p_books['shelved_avg'] * count) + shelved) / (count+1)
-        p_books['shelved_min'] = min(p_books['shelved_min'], shelved)
-        p_books['shelved_max'] = max(p_books['shelved_max'], shelved)
+            p_books['rating_avg'] = ((p_books['rating_avg'] * count) + rating) / (count+1)
+            p_books['rating_min'] = min(p_books['rating_min'], rating)
+            p_books['rating_max'] = max(p_books['rating_max'], rating)
 
-        p_books['rating_avg'] = ((p_books['rating_avg'] * count) + rating) / (count+1)
-        p_books['rating_min'] = min(p_books['rating_min'], rating)
-        p_books['rating_max'] = max(p_books['rating_max'], rating)
+            if pub != None:
+                p_books['pub_date_avg'] = ((p_books['pub_date_avg'] * count) + pub) / (count+1)
+                p_books['pub_date_min'] = min(p_books['pub_date_min'], pub)
+                p_books['pub_date_max'] = max(p_books['pub_date_max'], pub)
 
-        if pub != None:
-            p_books['pub_date_avg'] = ((p_books['pub_date_avg'] * count) + pub) / (count+1)
-            p_books['pub_date_min'] = min(p_books['pub_date_min'], pub)
-            p_books['pub_date_max'] = max(p_books['pub_date_max'], pub)
+            p_books['num_ratings_avg'] = ((p_books['num_ratings_avg'] * count) + num_ratings) / (count+1)
+            p_books['num_ratings_min'] = min(p_books['num_ratings_min'], num_ratings)
+            p_books['num_ratings_max'] = max(p_books['num_ratings_max'], num_ratings)
 
-        p_books['num_ratings_avg'] = ((p_books['num_ratings_avg'] * count) + num_ratings) / (count+1)
-        p_books['num_ratings_min'] = min(p_books['num_ratings_min'], num_ratings)
-        p_books['num_ratings_max'] = max(p_books['num_ratings_max'], num_ratings)
+            p_books['series_perent'] = ((p_books['series_percent'] * count) + series_num) / (count+1) * 1.0
+            if (series):
+                p_books['series_num'] += 1
 
-        p_books['series_perent'] = ((p_books['series_percent'] * count) + series_num) / (count+1)
+        p_books['count']  += 1
 
-        p_books['count'] += 1
-
-        print(title, author, shelved, rating, pub, num_ratings, series)
-        print(p_books['shelved_avg'], p_books['rating_avg'], p_books['pub_date_avg'], p_books['num_ratings_avg'], p_books['series_percent'])
+        #print(title, author, shelved, rating, pub, num_ratings, series)
+        #print(p_books['shelved_avg'], p_books['rating_avg'], p_books['pub_date_avg'], p_books['num_ratings_avg'], p_books['series_percent'])
 
     return p_books
         # for i, row in enumerate(rows):
