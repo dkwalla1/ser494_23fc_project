@@ -1,4 +1,5 @@
 import pickle
+import os
 
 def import_data(filename):
 
@@ -129,14 +130,11 @@ def munge_data(books):
         # for i, row in enumerate(rows):
         #      print(str(i) + ' ' + rows[i])
 
-high_genres = ['fiction', 'non-fiction', 'romance', 'historical', 'fantasy', 'scifi', 'classics', 'mystery', 'thriller', 'young-adult', 'philosophy', 'biography', 'psychology', 'memoir']
-sub_genres = ['alternate-history', 'fairy-tale', 'grimdark', 'epic-fantasy', 'urban-fantasy', 'caper', 'cozy-mystery']
-genres = high_genres + sub_genres
-
-for genre in genres:
-    path = './data_original/' + genre + '.pickle'
-    books = import_data(path)
-    p_books = munge_data(books)
-    path = './data_processing/' + genre + '.pickle'
-    with open(path, 'wb') as outfile:
-        pickle.dump(p_books, outfile)
+def process_data(genres):
+    for genre in genres:
+        path = '.'  + os.sep + 'data_original'  + os.sep + '' + genre + '.pickle'
+        books = import_data(path)
+        p_books = munge_data(books)
+        path = '.'  + os.sep + 'data_processing'  + os.sep + '' + genre + '.pickle'
+        with open(path, 'wb') as outfile:
+            pickle.dump(p_books, outfile)

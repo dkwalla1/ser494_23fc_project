@@ -1,3 +1,4 @@
+import os
 __author__ = "Dallin Wallace"
 __date__ = "10/11/2023"
 __assignment = "SER*94: Project"
@@ -28,14 +29,11 @@ def web_scrapping(url, classname, outputfile):
     with open(outputfile, 'wb') as outfile:
         pickle.dump(books, outfile)
 
-high_genres = ['fiction', 'non-fiction', 'romance', 'historical', 'fantasy', 'scifi', 'classics', 'mystery', 'thriller', 'young-adult', 'philosophy', 'biography', 'psychology', 'memoir']
-sub_genres = ['alternate-history', 'fairy-tale', 'grimdark', 'epic-fantasy', 'urban-fantasy', 'caper', 'cozy-mystery']
-genres = high_genres + sub_genres
-
-url_t = 'https://www.goodreads.com/shelf/show/'
-classname = 'left'
-for genre in genres:
-    url = url_t + str(genre)
-    outfile = "./data_original/" + str(genre) + '.pickle'
-    print(genre)
-    web_scrapping(url, classname, outfile)
+def generate_data(genres):
+    url_t = 'https://www.goodreads.com/shelf/show/'
+    classname = 'left'
+    for genre in genres:
+        url = url_t + str(genre)
+        outfile = '.'  + os.sep + 'data_original'  + os.sep + str(genre) + '.pickle'
+        print(genre)
+        web_scrapping(url, classname, outfile)

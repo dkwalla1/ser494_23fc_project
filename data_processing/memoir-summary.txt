@@ -1,0 +1,33 @@
+==========================
+memoir
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:3301.3400000000006
+min:1595
+max:10522
+median:2820.0
+
+Rating
+avg:4.111599999999997
+min:3.62
+max:4.71
+median:4.14
+
+Publication Date
+avg:2006.38
+min:1947
+max:2023
+median:2012.0
+
+Number of Ratings
+avg:514100.95500000037
+min:67303
+max:3568925
+median:309946.5
+
+Series
+There are two categories here: In a Series+ str(or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 8.0%
+

@@ -1,0 +1,33 @@
+==========================
+caper
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:7.560000000000001
+min:4
+max:28
+median:6.0
+
+Rating
+avg:3.9874000000000023
+min:3.42
+max:4.6
+median:3.965
+
+Publication Date
+avg:2000.08
+min:1962
+max:2022
+median:2007.0
+
+Number of Ratings
+avg:86029.54
+min:640
+max:871740
+median:14764.5
+
+Series
+There are two categories here: In a Series+ str(or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 83.5%
+

@@ -1,0 +1,33 @@
+==========================
+non-fiction
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:8756.52
+min:5925
+max:17310
+median:8549.5
+
+Rating
+avg:4.166000000000002
+min:3.62
+max:4.49
+median:4.145
+
+Publication Date
+avg:1972.3
+min:400
+max:2022
+median:2010.5
+
+Number of Ratings
+avg:600220.34
+min:103073
+max:1701768
+median:533622.0
+
+Series
+There are two categories here: In a Series+ str(or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 2.0%
+

@@ -1,0 +1,33 @@
+==========================
+grimdark
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:112.78
+min:48
+max:434
+median:89.0
+
+Rating
+avg:4.154600000000003
+min:3.45
+max:4.6
+median:4.19
+
+Publication Date
+avg:2010.4
+min:1984
+max:2021
+median:2012.5
+
+Number of Ratings
+avg:173616.5000000001
+min:2182
+max:2406269
+median:53791.5
+
+Series
+There are two categories here: In a Series+ str(or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 91.5%
+
