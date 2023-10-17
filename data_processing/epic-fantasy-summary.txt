@@ -3,13 +3,13 @@ epic-fantasy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:841.8
-min:407
-max:2022
-median:702.0
+avg:842.1
+min:406
+max:2023
+median:701.5
 
 Rating
-avg:4.288799999999996
+avg:4.288999999999997
 min:3.79
 max:4.76
 median:4.27
@@ -21,10 +21,10 @@ max:2017
 median:2002.5
 
 Number of Ratings
-avg:517013.6400000001
-min:69648
-max:3774855
-median:247093.0
+avg:517464.4200000001
+min:69670
+max:3777991
+median:247306.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

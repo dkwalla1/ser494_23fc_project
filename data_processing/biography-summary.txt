@@ -3,13 +3,13 @@ biography
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:2561.179999999999
-min:1334
-max:8075
-median:2074.0
+avg:2562.379999999999
+min:1335
+max:8082
+median:2076.5
 
 Rating
-avg:4.187799999999995
+avg:4.1880000000000015
 min:3.62
 max:4.49
 median:4.19
@@ -21,10 +21,10 @@ max:2022
 median:2010.0
 
 Number of Ratings
-avg:526891.7399999998
-min:30127
-max:3568925
-median:297606.5
+avg:527364.48
+min:30151
+max:3571062
+median:298122.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

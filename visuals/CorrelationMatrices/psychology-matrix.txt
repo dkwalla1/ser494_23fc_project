@@ -1,6 +1,6 @@
                rating  pub_date   shelved  num_ratings  series
-rating       1.000000  0.200093  0.161917     0.061094     NaN
-pub_date     0.200093  1.000000  0.024594     0.129037     NaN
-shelved      0.161917  0.024594  1.000000     0.389016     NaN
-num_ratings  0.061094  0.129037  0.389016     1.000000     NaN
+rating       1.000000  0.190739  0.161617     0.060573     NaN
+pub_date     0.190739  1.000000  0.038759     0.144614     NaN
+shelved      0.161617  0.038759  1.000000     0.389038     NaN
+num_ratings  0.060573  0.144614  0.389038     1.000000     NaN
 series            NaN       NaN       NaN          NaN     NaN

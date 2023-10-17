@@ -3,13 +3,13 @@ historical
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:1903.8600000000004
-min:1244
-max:5330
-median:1640.5
+avg:1906.8400000000004
+min:1246
+max:5334
+median:1642.5
 
 Rating
-avg:4.182200000000001
+avg:4.182399999999999
 min:3.73
 max:4.61
 median:4.195
@@ -21,10 +21,10 @@ max:2020
 median:2005.5
 
 Number of Ratings
-avg:1197564.6
-min:37368
-max:5840931
-median:763322.5
+avg:1198786.3
+min:37387
+max:5844875
+median:763917.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

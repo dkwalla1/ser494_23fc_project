@@ -3,13 +3,13 @@ scifi
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:1447.54
-min:900
-max:4115
-median:1187.5
+avg:1449.3399999999992
+min:901
+max:4123
+median:1188.5
 
 Rating
-avg:4.132399999999997
+avg:4.132599999999995
 min:3.69
 max:4.52
 median:4.145
@@ -21,10 +21,10 @@ max:2021
 median:1985.5
 
 Number of Ratings
-avg:852862.22
-min:102067
-max:8189385
-median:295423.0
+avg:853627.6
+min:102149
+max:8194956
+median:295881.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

@@ -3,13 +3,13 @@ young-adult
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:13449.940000000004
-min:7840
-max:34166
-median:11415.5
+avg:13454.620000000003
+min:7844
+max:34178
+median:11419.5
 
 Rating
-avg:4.099400000000001
+avg:4.0992
 min:3.59
 max:4.62
 median:4.085
@@ -21,10 +21,10 @@ max:2017
 median:2008.5
 
 Number of Ratings
-avg:2035417.7199999997
-min:354804
-max:9548350
-median:1371174.0
+avg:2036949.6999999983
+min:355101
+max:9555886
+median:1372115.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

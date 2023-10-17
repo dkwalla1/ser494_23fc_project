@@ -21,10 +21,10 @@ max:2022
 median:2007.0
 
 Number of Ratings
-avg:86029.54
-min:640
-max:871740
-median:14764.5
+avg:86132.15999999995
+min:642
+max:872953
+median:14778.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

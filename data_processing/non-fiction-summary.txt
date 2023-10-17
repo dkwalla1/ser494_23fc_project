@@ -3,28 +3,28 @@ non-fiction
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:8756.52
-min:5925
-max:17310
-median:8549.5
+avg:8764.780000000004
+min:5927
+max:17325
+median:8558.5
 
 Rating
-avg:4.166000000000002
+avg:4.1556
 min:3.62
 max:4.49
-median:4.145
+median:4.14
 
 Publication Date
-avg:1972.3
+avg:1972.06
 min:400
 max:2022
-median:2010.5
+median:2010.0
 
 Number of Ratings
-avg:600220.34
-min:103073
-max:1701768
-median:533622.0
+avg:601112.3599999999
+min:103335
+max:1702458
+median:533870.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

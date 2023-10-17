@@ -37,3 +37,16 @@ def generate_data(genres):
         outfile = '.'  + os.sep + 'data_original'  + os.sep + str(genre) + '.pickle'
         print(genre)
         web_scrapping(url, classname, outfile)
+
+
+genres = []
+
+with open('genres.txt', 'r') as file:
+    lines = file.readlines()
+
+for line in lines:
+    if line[0] == '#' or line[0] == '\n':
+        continue
+    genres.append(line.replace('\n', ''))
+
+generate_data(genres)

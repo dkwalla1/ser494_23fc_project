@@ -3,13 +3,13 @@ thriller
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:3768.5
-min:2235
-max:9396
-median:2906.5
+avg:3776.16
+min:2242
+max:9416
+median:2912.5
 
 Rating
-avg:3.9864000000000015
+avg:3.986400000000002
 min:3.59
 max:4.34
 median:3.965
@@ -21,10 +21,10 @@ max:2022
 median:2015.5
 
 Number of Ratings
-avg:820689.94
-min:141114
-max:3118276
-median:558792.0
+avg:822060.04
+min:141472
+max:3119537
+median:559596.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

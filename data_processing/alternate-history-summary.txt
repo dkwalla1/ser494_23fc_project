@@ -3,7 +3,7 @@ alternate-history
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:294.72
+avg:295.22000000000014
 min:160
 max:1063
 median:252.5
@@ -21,10 +21,10 @@ max:2018
 median:2006.0
 
 Number of Ratings
-avg:66855.37999999995
+avg:66894.62000000007
 min:2617
-max:545792
-median:26727.5
+max:546014
+median:26739.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

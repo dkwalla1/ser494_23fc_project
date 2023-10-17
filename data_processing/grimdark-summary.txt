@@ -3,10 +3,10 @@ grimdark
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:112.78
+avg:113.02
 min:48
 max:434
-median:89.0
+median:90.0
 
 Rating
 avg:4.154600000000003
@@ -21,10 +21,10 @@ max:2021
 median:2012.5
 
 Number of Ratings
-avg:173616.5000000001
-min:2182
-max:2406269
-median:53791.5
+avg:173774.70000000007
+min:2184
+max:2407782
+median:53823.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

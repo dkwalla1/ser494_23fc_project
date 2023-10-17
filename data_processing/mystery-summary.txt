@@ -3,14 +3,14 @@ mystery
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:6511.1
-min:3851
-max:17942
-median:5573.5
+avg:6517.84
+min:3854
+max:17964
+median:5590.0
 
 Rating
-avg:4.026999999999997
-min:3.69
+avg:4.026599999999998
+min:3.68
 max:4.4
 median:4.0
 
@@ -21,10 +21,10 @@ max:2022
 median:2006.0
 
 Number of Ratings
-avg:843120.46
-min:100715
-max:3118276
-median:569154.5
+avg:844308.52
+min:100868
+max:3119537
+median:569723.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

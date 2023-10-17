@@ -3,10 +3,10 @@ fiction
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:16080.200000000004
-min:11590
-max:27867
-median:14874.0
+avg:16090.620000000004
+min:11602
+max:27889
+median:14880.0
 
 Rating
 avg:4.167799999999999
@@ -21,10 +21,10 @@ max:2020
 median:1997.0
 
 Number of Ratings
-avg:2857532.274999999
-min:816154
-max:9548350
-median:2687135.0
+avg:2859868.9400000013
+min:816502
+max:9555886
+median:2689972.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

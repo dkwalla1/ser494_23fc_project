@@ -3,13 +3,13 @@ fairy-tale
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:266.99999999999994
+avg:266.9999999999997
 min:151
-max:845
+max:846
 median:204.5
 
 Rating
-avg:4.000399999999997
+avg:4.000599999999995
 min:3.54
 max:4.43
 median:4.04
@@ -21,10 +21,10 @@ max:2019
 median:2010.0
 
 Number of Ratings
-avg:195059.56
-min:16650
-max:1825651
-median:90594.0
+avg:195349.86
+min:16651
+max:1835532
+median:90679.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

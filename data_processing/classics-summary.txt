@@ -3,28 +3,28 @@ classics
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:28673.8
-min:15892
+avg:28627.74000000001
+min:15724
 max:67441
 median:25121.0
 
 Rating
-avg:3.9981999999999998
+avg:3.9962000000000004
 min:3.43
 max:4.32
-median:4.005
+median:3.995
 
 Publication Date
-avg:1829.46
+avg:1822.1
 min:700
 max:1969
-median:1881.0
+median:1877.0
 
 Number of Ratings
-avg:1665213.58
-min:338714
-max:5840931
-median:1067483.0
+avg:1659321.3
+min:338881
+max:5844875
+median:1068290.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

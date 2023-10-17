@@ -3,10 +3,10 @@ philosophy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:4192.539999999999
+avg:4198.6399999999985
 min:2438
-max:11799
-median:3315.0
+max:11826
+median:3317.0
 
 Rating
 avg:3.999200000000002
@@ -21,10 +21,10 @@ max:2006
 median:1851.0
 
 Number of Ratings
-avg:201976.22
-min:15827
-max:2894080
-median:49813.0
+avg:202167.80000000005
+min:15838
+max:2896734
+median:49878.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

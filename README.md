@@ -8,6 +8,10 @@ Here are some things you might want to know about this project if you are lookin
 
 First of all, thanks for grading/reviewing me! I appreciate it! Here, have a virtual high five:🖐️
 
-Second, my visuals directory is slightly different that you might expect. Since I am basically scraping mutliple similar sources, I have different graphs for each genre. I put each type of chart in it's own folder to keep it organized. In the parent directory are also a couple of charts that compare graphs across genres. In particular, ShelvedComparison measures the average number of times a book is added to that particular genre, which is an indication of the popularity of the genre. GenreStrengthComparison is a calculation of a genre's shelved amount times the average number of reviews for books in the genre, which is an indication of how often people read in that genre. If you are generating the visuals, make sure you have the directories!
+Second, my visuals directory is slightly different that you might expect. Since I am basically scraping mutliple similar sources, I have different graphs for each genre. I put each type of chart in it's own folder to keep it organized. In the parent directory are also a couple of charts that compare graphs across genres. See the project_exploration for more information on these charts :D
+
+*If you are generating the visuals, make sure you have the directories!*
+
+Third, the highest directory has a genres.txt file whic is import to the program. It has the genres I am scraping. Evntually, I want to add more genres I think.
 
 Fourth, did you know the the Quetzalcoatlus is a flying, giraffe-sized, carnivorous dinosaur? Look it up, it's insane!

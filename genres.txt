@@ -1,0 +1,31 @@
+fiction
+non-fiction
+
+historical
+
+young-adult
+
+#sub-fictional
+romance
+fantasy
+scifi
+classics
+mystery
+thriller
+
+#sub-fantasy (sub-sub-fictional)
+alternate-history
+fairy-tale
+grimdark
+epic-fantasy
+urban-fantasy
+
+#sub-mystery (sub-sub-fictional)
+caper
+cozy-mystery
+
+#sub-non-fictional
+philosophy
+biography
+psychology
+memoir

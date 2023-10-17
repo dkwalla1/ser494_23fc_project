@@ -3,28 +3,28 @@ cozy-mystery
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:307.2599999999998
+avg:307.8999999999998
 min:214
-max:707
-median:273.0
+max:709
+median:274.0
 
 Rating
-avg:3.8168000000000006
+avg:3.816200000000001
 min:3.5
 max:4.23
-median:3.84
+median:3.835
 
 Publication Date
-avg:2007.02
+avg:2007.06
 min:1975
 max:2023
 median:2009.0
 
 Number of Ratings
-avg:25276.56
-min:4133
-max:392742
-median:11586.0
+avg:28351.69999999999
+min:4141
+max:394552
+median:11600.5
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

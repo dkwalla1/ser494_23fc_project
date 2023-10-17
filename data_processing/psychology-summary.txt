@@ -3,28 +3,28 @@ psychology
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:2657.4199999999987
-min:1402
-max:8546
-median:2179.0
+avg:2660.7599999999975
+min:1405
+max:8552
+median:2181.0
 
 Rating
-avg:4.0993999999999975
+avg:4.099599999999999
 min:3.75
 max:4.42
 median:4.1
 
 Publication Date
-avg:1994.7891948641884
+avg:1994.12
 min:1899
 max:2019
 median:2006.0
 
 Number of Ratings
-avg:247276.5000000001
-min:11637
-max:1013344
-median:118693.0
+avg:247593.78499999997
+min:11642
+max:1015078
+median:118799.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series

@@ -3,10 +3,10 @@ urban-fantasy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:3189.120000000001
-min:2196
-max:6064
-median:3010.5
+avg:3188.5400000000004
+min:2195
+max:6065
+median:3010.0
 
 Rating
 avg:4.251999999999994
@@ -21,10 +21,10 @@ max:2015
 median:2008.0
 
 Number of Ratings
-avg:212847.53
-min:37434
-max:1949722
-median:110633.5
+avg:212947.64
+min:37450
+max:1950663
+median:110680.0
 
 Series
 There are two categories here: In a Series+ str(or Not in a Series
