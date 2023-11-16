@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for caper genre.
+Model 1:
+Testing MSE:
+2.3116045788145597e-06
+Testing MAE:
+0.0010659410194556198
+
+Model 2:
+Testing MSE:
+2.3116045788145597e-06
+Testing MAE:
+0.0010659410194556198
+
+Model 3:
+Testing MSE:
+1.8351337387085534e-06
+Testing MAE:
+0.0009044868087592873
+

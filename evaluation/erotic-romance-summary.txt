@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for erotic-romance genre.
+Model 1:
+Testing MSE:
+2.1415659827195443e-06
+Testing MAE:
+0.0011397336429762087
+
+Model 2:
+Testing MSE:
+2.1415659827195443e-06
+Testing MAE:
+0.0011397336429762087
+
+Model 3:
+Testing MSE:
+2.1415659827195443e-06
+Testing MAE:
+0.0011397336429762087
+

@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for dark-romance genre.
+Model 1:
+Testing MSE:
+4.66256703175428e-05
+Testing MAE:
+0.005125274049156372
+
+Model 2:
+Testing MSE:
+4.66256703175428e-05
+Testing MAE:
+0.005125274049156372
+
+Model 3:
+Testing MSE:
+4.66256703175428e-05
+Testing MAE:
+0.005125274049156372
+

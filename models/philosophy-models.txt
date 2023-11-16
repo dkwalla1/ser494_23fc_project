@@ -1,0 +1,12 @@
+philosophy models (first number is coefficient, second in intercept, third is MSE, last is MAE.)
+model trained on all dates:
+-1.9099481644624566e-06
+0.07593754724906902
+0.0027301907493222544
+0.04456122057367849
+model trained on dates after 1940:
+-0.0010870131781246886
+2.1814044737443155
+0.0012069153180411974
+0.02781640835463161
+The philosophy genre does not have enough books after 1990.

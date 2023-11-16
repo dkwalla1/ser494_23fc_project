@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for low-fantasy genre.
+Model 1:
+Testing MSE:
+7.439043704901252e-09
+Testing MAE:
+5.9492300146906426e-05
+
+Model 2:
+Testing MSE:
+7.439043704901252e-09
+Testing MAE:
+5.9492300146906426e-05
+
+Model 3:
+Testing MSE:
+7.292934413759872e-09
+Testing MAE:
+5.711274360015543e-05
+

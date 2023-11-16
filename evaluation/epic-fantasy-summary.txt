@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for epic-fantasy genre.
+Model 1:
+Testing MSE:
+1.540388531711549e-06
+Testing MAE:
+0.0009983231926319253
+
+Model 2:
+Testing MSE:
+1.5500016385299445e-06
+Testing MAE:
+0.0010045429604449924
+
+Model 3:
+Testing MSE:
+1.6446292045816344e-06
+Testing MAE:
+0.001032252303341094
+

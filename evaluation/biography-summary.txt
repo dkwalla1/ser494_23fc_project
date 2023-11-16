@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for biography genre.
+Model 1:
+Testing MSE:
+0.0001837485589780787
+Testing MAE:
+0.010196695117043101
+
+Model 2:
+Testing MSE:
+0.00018966838932133427
+Testing MAE:
+0.010500137729165802
+
+Model 3:
+Testing MSE:
+0.00019945697703957423
+Testing MAE:
+0.010818685548888055
+

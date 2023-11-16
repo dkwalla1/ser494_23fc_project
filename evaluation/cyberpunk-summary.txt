@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for cyberpunk genre.
+Model 1:
+Testing MSE:
+0.000554603260288299
+Testing MAE:
+0.014376650231443574
+
+Model 2:
+Testing MSE:
+0.000554603260288299
+Testing MAE:
+0.014376650231443574
+
+Model 3:
+Testing MSE:
+0.0005244967168861903
+Testing MAE:
+0.012721618629891436
+

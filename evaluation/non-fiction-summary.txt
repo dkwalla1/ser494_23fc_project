@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for non-fiction genre.
+Model 1:
+Testing MSE:
+0.0001252914380368025
+Testing MAE:
+0.008151068803165159
+
+Model 2:
+Testing MSE:
+0.00012024537836776641
+Testing MAE:
+0.008204499610742773
+
+Model 3:
+Testing MSE:
+0.00013295952612134168
+Testing MAE:
+0.008694094878568915
+

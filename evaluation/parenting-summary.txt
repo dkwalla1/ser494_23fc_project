@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for parenting genre.
+Model 1:
+Testing MSE:
+0.0026692150758040024
+Testing MAE:
+0.04215874837742215
+
+Model 2:
+Testing MSE:
+0.0026692150758040024
+Testing MAE:
+0.04215874837742215
+
+Model 3:
+Testing MSE:
+0.0029014257204287032
+Testing MAE:
+0.04446260314732728
+

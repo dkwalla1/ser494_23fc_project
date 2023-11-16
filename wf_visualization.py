@@ -44,7 +44,7 @@ def compute_stats(books, genre):
         file.write('median:' + str(med['num_ratings']) + '\n')
 
         file.write('\nSeries\n')
-        file.write('There are two categories here: In a Series+ str(or Not in a Series\n')
+        file.write('There are two categories here: In a Series or Not in a Series\n')
         file.write('I just have the percentage here since most and least frequent are trivial to understand from this :)\n')
         file.write('Percent of books in series: '+ str(books['series_num'] / books['count'] * 100) + '%\n')
         file.write('\n')
@@ -91,6 +91,12 @@ def compute_stats(books, genre):
     plt.scatter(df['num_ratings'], df['shelved'])
     plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedToNumRatings'  + os.sep + 'ShelvedToNumRatings' + genre +'.png')
 
+    #ShelvedRatingsRationByPubDate
+    fig, ax = plt.subplots()
+    ax.set(title='Shelved Amount to Number of Ratings By Publication Date: ' + genre, ylabel='Shelved-Ratings Ratio', xlabel='Publication Date')
+    plt.scatter(df['pub_date'], df['num_ratings'] / df['shelved'] )
+    plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedRatingsRatioByPubDate'  + os.sep + 'ShelvedRatingsRatioByPubDate' + genre +'.png')
+
     #series or no series
     fig, ax = plt.subplots()
     ax.set(title='Is a particular book in a series: ' + genre, ylabel='Number of Books', xlabel='In Series?')
@@ -115,23 +121,72 @@ def compare_genres(books):
     fig, ax = plt.subplots()
     ax.set(title='Genre Strength (Average Shelved Amount * Average Number of Reviews)', ylabel='Strength', xlabel='Genre')
     ax.bar(strs.index, strs)
-    fig.set_figwidth(30)
+    fig.set_figwidth(150)
     fig.set_figheight(10)
     plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'GenreStrengthComparison.png')
+
+    strs = strs.sort_values(ascending=False)
+
+    fig, ax = plt.subplots()
+    ax.set(title='Genre Strength (Average Shelved Amount * Average Number of Reviews)', ylabel='Strength', xlabel='Genre')
+    ax.bar(strs.index, strs)
+    fig.set_figwidth(150)
+    fig.set_figheight(10)
+    plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'GenreStrengthComparisonSorted.png')
 
     fig, ax = plt.subplots()
     ax.set(title='Shelved Comparison', ylabel='Shelved Amount', xlabel='Genre')
     ax.bar(df.index, df['shelved_avg'])
-    fig.set_figwidth(30)
+    fig.set_figwidth(150)
     fig.set_figheight(10)
     plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedComparison.png')
+
+    #TODO!!!
+    # shelved_comp = pd.DataFrame(df['shelved_avg'])
+    # print(shelved_comp)
+    # shelved_comp.sort_values(by=['shelved_avg'], ascending=False)
+    # print(shelved_comp)
+    # fig, ax = plt.subplots()
+    # ax.set(title='Shelved Comparison', ylabel='Shelved Amount', xlabel='Genre')
+    # ax.bar(shelved_comp.index, shelved_comp)
+    # fig.set_figwidth(150)
+    # fig.set_figheight(10)
+    # plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedComparisonSorted.png')
 
     fig, ax = plt.subplots()
     ax.set(title='Shelved to Number of Ratings Ratio Comparison', ylabel='Shelved to Number of Ratings Ratio', xlabel='Genre')
     ax.bar(df.index, df['shelved_avg'] / df['num_ratings_avg'])
-    fig.set_figwidth(30)
+    fig.set_figwidth(150)
     fig.set_figheight(10)
     plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedRatingsRatioComparison.png')
+
+    ratio = df['shelved_avg'] / df['num_ratings_avg']
+    ratio = ratio.sort_values(ascending=False)
+    fig, ax = plt.subplots()
+    ax.set(title='Shelved to Number of Ratings Ratio Comparison', ylabel='Shelved to Number of Ratings Ratio', xlabel='Genre')
+    ax.bar(ratio.index, ratio)
+    fig.set_figwidth(150)
+    fig.set_figheight(10)
+    plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedRatingsRatioComparisonSorted.png')
+
+    ratio = df['shelved_avg'] / df['num_ratings_avg']
+    ratio *= 1000
+    ratio = ratio.sort_values(ascending=False)
+    fig, ax = plt.subplots()
+    ax.set(title='Shelved to Number of Ratings Ratio Comparison', ylabel='Shelved to Number of Ratings Ratio', xlabel='Genre')
+    ax.bar(ratio.index, ratio)
+    fig.set_figwidth(150)
+    fig.set_figheight(10)
+    plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedRatingsRatio1000ComparisonSorted.png')
+
+    ratio = df['shelved_avg'] / df['num_ratings_avg']
+    ratio *= 1000
+    fig, ax = plt.subplots()
+    ax.set(title='Shelved to Number of Ratings Ratio Comparison', ylabel='Shelved to Number of Ratings Ratio', xlabel='Genre')
+    ax.bar(ratio.index, ratio)
+    fig.set_figwidth(150)
+    fig.set_figheight(10)
+    plt.savefig('.'  + os.sep + 'visuals'  + os.sep + 'ShelvedRatingsRatio1000Comparison.png')
 
 def visualize(genres):
     all_genres = {}
@@ -143,3 +198,23 @@ def visualize(genres):
         compute_stats(books, genre)
 
     compare_genres(all_genres)
+
+genres = []
+
+with open('genres.txt', 'r') as file:
+    lines = file.readlines()
+
+for line in lines:
+    if line[0] == '#' or line[0] == '\n':
+        continue
+    genres.append(line.replace('\n', ''))
+
+all_genres = {}
+
+for genre in genres:
+    path = '.'  + os.sep + 'data_processing'  + os.sep + '' + genre + '.pickle'
+    books = import_processed_books(path)
+    all_genres[genre] = books
+    compute_stats(books, genre)
+
+compare_genres(all_genres)

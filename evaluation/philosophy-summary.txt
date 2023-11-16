@@ -1,0 +1,13 @@
+Mean Squared Error and Mean Absolute Error for philosophy genre.
+Model 1:
+Testing MSE:
+0.0027301907493222544
+Testing MAE:
+0.04456122057367849
+
+Model 2:
+Testing MSE:
+0.0012069153180411974
+Testing MAE:
+0.02781640835463161
+

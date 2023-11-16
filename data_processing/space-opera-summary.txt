@@ -1,0 +1,33 @@
+==========================
+space-opera
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:417.54000000000013
+min:240
+max:1274
+median:345.5
+
+Rating
+avg:4.181400000000007
+min:3.8
+max:4.57
+median:4.21
+
+Publication Date
+avg:2000.34
+min:1951
+max:2019
+median:2005.5
+
+Number of Ratings
+avg:146751.24000000005
+min:15041
+max:1340778
+median:66381.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 95.875%
+

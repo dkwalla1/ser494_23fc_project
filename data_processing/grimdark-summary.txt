@@ -3,13 +3,13 @@ grimdark
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:113.02
+avg:113.99999999999999
 min:48
-max:434
-median:90.0
+max:440
+median:92.0
 
 Rating
-avg:4.154600000000003
+avg:4.154199999999996
 min:3.45
 max:4.6
 median:4.19
@@ -21,13 +21,13 @@ max:2021
 median:2012.5
 
 Number of Ratings
-avg:173774.70000000007
-min:2184
-max:2407782
-median:53823.5
+avg:174536.4600000001
+min:2195
+max:2414913
+median:54011.0
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 91.5%
+Percent of books in series: 91.875%
 

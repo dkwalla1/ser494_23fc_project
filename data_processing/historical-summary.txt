@@ -3,31 +3,31 @@ historical
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:1906.8400000000004
-min:1246
-max:5334
-median:1642.5
+avg:1915.3
+min:1247
+max:5348
+median:1648.5
 
 Rating
-avg:4.182399999999999
+avg:4.184000000000006
 min:3.73
 max:4.61
 median:4.195
 
 Publication Date
-avg:1991.18
+avg:1991.28
 min:1813
 max:2020
 median:2005.5
 
 Number of Ratings
-avg:1198786.3
-min:37387
-max:5844875
-median:763917.5
+avg:1193629.6587499992
+min:37479
+max:5863087
+median:766768.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 46.0%
+Percent of books in series: 48.0%
 

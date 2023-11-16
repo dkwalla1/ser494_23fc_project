@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for historical-romance genre.
+Model 1:
+Testing MSE:
+0.0003058515331018674
+Testing MAE:
+0.014177454191559183
+
+Model 2:
+Testing MSE:
+0.0002649975248164382
+Testing MAE:
+0.01287586482794382
+
+Model 3:
+Testing MSE:
+0.0002698118233139772
+Testing MAE:
+0.013149146861088586
+

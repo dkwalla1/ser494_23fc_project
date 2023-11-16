@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for heist genre.
+Model 1:
+Testing MSE:
+1.7920389654947446e-05
+Testing MAE:
+0.003077563309251488
+
+Model 2:
+Testing MSE:
+1.7920389654947446e-05
+Testing MAE:
+0.003077563309251488
+
+Model 3:
+Testing MSE:
+1.7751310891066817e-05
+Testing MAE:
+0.002961168776131422
+

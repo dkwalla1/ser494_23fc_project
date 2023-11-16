@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for action genre.
+Model 1:
+Testing MSE:
+1.8689598057831343e-06
+Testing MAE:
+0.000653808161655489
+
+Model 2:
+Testing MSE:
+1.8689598057831343e-06
+Testing MAE:
+0.000653808161655489
+
+Model 3:
+Testing MSE:
+1.8501587771436034e-06
+Testing MAE:
+0.0006765462398280885
+

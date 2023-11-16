@@ -11,7 +11,8 @@ def web_scrapping(url, classname, outputfile):
 
     attempts = 0
     books = []
-    for i in range(4):
+    NUM_PAGES_TO_READ = 16 #<-- the number of pages with 50 books read (Ex: 4, means 200 books are read from that shelf) (Except for dystopian for some reason only has 49 books to a page 🤷‍♂️)
+    for i in range(NUM_PAGES_TO_READ): 
         while attempts < 250:
             page_num = f"?page={i+1}"
             r = requests.get(url + page_num)
@@ -20,7 +21,7 @@ def web_scrapping(url, classname, outputfile):
                 books_soup = soup.findAll(class_ = classname)
                 for book in books_soup:
                     books.append(book.get_text())
-                print(len(books))
+                print(len(books), '/', NUM_PAGES_TO_READ*50)
             else:
                 print("Non 200 status code")
             break

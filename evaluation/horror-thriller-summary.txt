@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for horror-thriller genre.
+Model 1:
+Testing MSE:
+4.1584180127212804e-07
+Testing MAE:
+0.0004888477710789875
+
+Model 2:
+Testing MSE:
+4.3045975824305724e-07
+Testing MAE:
+0.0005027222136291282
+
+Model 3:
+Testing MSE:
+5.572717982924465e-07
+Testing MAE:
+0.0006187216448427943
+

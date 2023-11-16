@@ -3,13 +3,13 @@ urban-fantasy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:3188.5400000000004
-min:2195
-max:6065
-median:3010.0
+avg:3190.94
+min:2194
+max:6068
+median:3014.0
 
 Rating
-avg:4.251999999999994
+avg:4.252000000000004
 min:3.77
 max:4.56
 median:4.285
@@ -21,13 +21,13 @@ max:2015
 median:2008.0
 
 Number of Ratings
-avg:212947.64
-min:37450
-max:1950663
-median:110680.0
+avg:213470.38
+min:37556
+max:1955010
+median:110919.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 97.5%
+Percent of books in series: 97.875%
 

@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for apocalyptic genre.
+Model 1:
+Testing MSE:
+1.7305347860266957e-06
+Testing MAE:
+0.001038196762525829
+
+Model 2:
+Testing MSE:
+1.7305347860266957e-06
+Testing MAE:
+0.001038196762525829
+
+Model 3:
+Testing MSE:
+1.295259431246836e-06
+Testing MAE:
+0.0008488386189337966
+

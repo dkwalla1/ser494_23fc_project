@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for mystery genre.
+Model 1:
+Testing MSE:
+8.07596857984864e-05
+Testing MAE:
+0.007507653263931308
+
+Model 2:
+Testing MSE:
+8.872111933478109e-05
+Testing MAE:
+0.007745734395168303
+
+Model 3:
+Testing MSE:
+8.022840843976776e-05
+Testing MAE:
+0.007358036160055595
+

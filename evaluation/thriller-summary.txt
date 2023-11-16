@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for thriller genre.
+Model 1:
+Testing MSE:
+1.1662716928465316e-05
+Testing MAE:
+0.0025668697268886507
+
+Model 2:
+Testing MSE:
+1.1537447273930587e-05
+Testing MAE:
+0.0025050715403017545
+
+Model 3:
+Testing MSE:
+1.222052979507497e-05
+Testing MAE:
+0.0025765383514892983
+

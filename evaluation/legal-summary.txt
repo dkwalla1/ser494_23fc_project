@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for legal genre.
+Model 1:
+Testing MSE:
+8.135294159022373e-07
+Testing MAE:
+0.0006533858595833387
+
+Model 2:
+Testing MSE:
+8.135294159022373e-07
+Testing MAE:
+0.0006533858595833387
+
+Model 3:
+Testing MSE:
+7.498346241340939e-07
+Testing MAE:
+0.0006234221661432395
+

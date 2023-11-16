@@ -1,0 +1,33 @@
+==========================
+time-travel
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:1107.4999999999993
+min:577
+max:3903
+median:941.0
+
+Rating
+avg:4.07300000000001
+min:3.5
+max:4.58
+median:4.07
+
+Publication Date
+avg:2002.38
+min:1895
+max:2022
+median:2010.0
+
+Number of Ratings
+avg:341298.8149999998
+min:15989
+max:3967440
+median:113518.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 63.87500000000001%
+

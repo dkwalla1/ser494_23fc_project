@@ -1,0 +1,33 @@
+==========================
+horror
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:7101.059999999998
+min:3954
+max:19712
+median:5549.0
+
+Rating
+avg:3.9431999999999983
+min:3.39
+max:4.35
+median:3.955
+
+Publication Date
+avg:1982.42
+min:1818
+max:2022
+median:1989.5
+
+Number of Ratings
+avg:373978.1175
+min:46137
+max:1531443
+median:223149.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 15.875%
+

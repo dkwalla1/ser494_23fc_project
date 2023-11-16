@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for young-adult genre.
+Model 1:
+Testing MSE:
+1.525947120927828e-05
+Testing MAE:
+0.00292289373826471
+
+Model 2:
+Testing MSE:
+1.525947120927828e-05
+Testing MAE:
+0.00292289373826471
+
+Model 3:
+Testing MSE:
+1.4241531525149059e-05
+Testing MAE:
+0.0027339438011889945
+

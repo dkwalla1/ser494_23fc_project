@@ -1,0 +1,33 @@
+==========================
+science-fiction
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:7989.4
+min:4931
+max:18744
+median:6612.5
+
+Rating
+avg:4.1190000000000175
+min:3.69
+max:4.51
+median:4.135
+
+Publication Date
+avg:1978.48
+min:1818
+max:2021
+median:1984.5
+
+Number of Ratings
+avg:1076250.6624999992
+min:137293
+max:8223253
+median:406495.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 63.87500000000001%
+

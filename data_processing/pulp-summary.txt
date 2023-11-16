@@ -1,0 +1,33 @@
+==========================
+pulp
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:37.41999999999998
+min:20
+max:162
+median:28.5
+
+Rating
+avg:3.908800000000009
+min:3.35
+max:4.34
+median:3.88
+
+Publication Date
+avg:1950.38
+min:1885
+max:2012
+median:1937.0
+
+Number of Ratings
+avg:151732.56000000017
+min:281
+max:3125393
+median:6702.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 67.875%
+

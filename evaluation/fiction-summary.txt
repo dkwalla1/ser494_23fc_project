@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for fiction genre.
+Model 1:
+Testing MSE:
+7.957260606374473e-06
+Testing MAE:
+0.0022495833888407004
+
+Model 2:
+Testing MSE:
+8.3483895814055e-06
+Testing MAE:
+0.002316021351864735
+
+Model 3:
+Testing MSE:
+7.549735670596785e-06
+Testing MAE:
+0.002091321119526714
+

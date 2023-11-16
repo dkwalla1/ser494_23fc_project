@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for cozy-mystery genre.
+Model 1:
+Testing MSE:
+0.00015526581765551428
+Testing MAE:
+0.010548240271732349
+
+Model 2:
+Testing MSE:
+0.00015526581765551428
+Testing MAE:
+0.010548240271732349
+
+Model 3:
+Testing MSE:
+0.00016951201303939782
+Testing MAE:
+0.011205507446288827
+

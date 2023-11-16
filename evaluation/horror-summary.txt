@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for horror genre.
+Model 1:
+Testing MSE:
+0.0002789877416900186
+Testing MAE:
+0.013418483484265626
+
+Model 2:
+Testing MSE:
+0.000272966987281679
+Testing MAE:
+0.013545163276570257
+
+Model 3:
+Testing MSE:
+0.00040041059706223605
+Testing MAE:
+0.017709516568338305
+

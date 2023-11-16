@@ -1,0 +1,33 @@
+==========================
+erotica
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:660.7800000000015
+min:361
+max:3169
+median:466.0
+
+Rating
+avg:3.978399999999995
+min:3.23
+max:4.44
+median:3.995
+
+Publication Date
+avg:2007.86
+min:1954
+max:2015
+median:2012.0
+
+Number of Ratings
+avg:166307.03999999995
+min:10015
+max:2500763
+median:55737.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 93.875%
+

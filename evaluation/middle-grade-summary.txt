@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for middle-grade genre.
+Model 1:
+Testing MSE:
+0.00019364918189959955
+Testing MAE:
+0.010356709721737228
+
+Model 2:
+Testing MSE:
+0.00018609891903746098
+Testing MAE:
+0.010450563786172198
+
+Model 3:
+Testing MSE:
+0.0001453853272517024
+Testing MAE:
+0.009578594310182853
+

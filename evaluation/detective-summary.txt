@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for detective genre.
+Model 1:
+Testing MSE:
+1.10004443558964e-06
+Testing MAE:
+0.0009003321614358573
+
+Model 2:
+Testing MSE:
+4.914823664126506e-07
+Testing MAE:
+0.000615640384738184
+
+Model 3:
+Testing MSE:
+4.3858043410593157e-07
+Testing MAE:
+0.0005573945918497144
+

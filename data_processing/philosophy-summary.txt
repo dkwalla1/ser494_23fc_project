@@ -3,31 +3,31 @@ philosophy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:4198.6399999999985
-min:2438
-max:11826
-median:3317.0
+avg:4221.979999999995
+min:2448
+max:11933
+median:3332.0
 
 Rating
-avg:3.999200000000002
+avg:3.9991999999999965
 min:3.55
 max:4.37
 median:3.99
 
 Publication Date
-avg:1479.62
+avg:1479.6199999999985
 min:49
 max:2006
 median:1851.0
 
 Number of Ratings
-avg:202167.80000000005
-min:15838
-max:2896734
-median:49878.0
+avg:203097.2199999999
+min:15896
+max:2910011
+median:50242.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
 Percent of books in series: 2.0%
 

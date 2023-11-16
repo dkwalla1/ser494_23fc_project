@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for paranormal-romance genre.
+Model 1:
+Testing MSE:
+5.625495448382755e-05
+Testing MAE:
+0.006344363190860155
+
+Model 2:
+Testing MSE:
+5.625495448382755e-05
+Testing MAE:
+0.006344363190860155
+
+Model 3:
+Testing MSE:
+5.625495448382755e-05
+Testing MAE:
+0.006344363190860155
+

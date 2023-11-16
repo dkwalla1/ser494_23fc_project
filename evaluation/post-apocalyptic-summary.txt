@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for post-apocalyptic genre.
+Model 1:
+Testing MSE:
+1.0694077618983025e-05
+Testing MAE:
+0.002725733953055221
+
+Model 2:
+Testing MSE:
+1.0694077618983025e-05
+Testing MAE:
+0.002725733953055221
+
+Model 3:
+Testing MSE:
+5.799651917210784e-06
+Testing MAE:
+0.002029806684310552
+

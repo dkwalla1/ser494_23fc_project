@@ -3,31 +3,31 @@ fantasy
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:27983.560000000005
-min:17690
-max:63821
-median:24713.5
+avg:28248.98
+min:17803
+max:64043
+median:24818.0
 
 Rating
-avg:4.2524000000000015
+avg:4.264400000000002
 min:3.5
 max:4.65
-median:4.265000000000001
+median:4.29
 
 Publication Date
-avg:2000.08
+avg:2000.2
 min:1937
 max:2018
 median:2006.5
 
 Number of Ratings
-avg:1235241.9399999995
-min:227640
-max:6301180
-median:905897.5
+avg:1254763.3399999985
+min:285504
+max:6318746
+median:908864.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 85.5%
+Percent of books in series: 87.875%
 

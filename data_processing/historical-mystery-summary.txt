@@ -1,0 +1,33 @@
+==========================
+historical-mystery
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:202.67999999999995
+min:140
+max:347
+median:186.0
+
+Rating
+avg:4.007399999999994
+min:3.64
+max:4.29
+median:4.0
+
+Publication Date
+avg:2005.62
+min:1975
+max:2019
+median:2008.0
+
+Number of Ratings
+avg:35429.83999999999
+min:6009
+max:356380
+median:17287.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 97.875%
+

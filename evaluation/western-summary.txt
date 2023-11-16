@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for western genre.
+Model 1:
+Testing MSE:
+0.00022920893093737334
+Testing MAE:
+0.013190928170410853
+
+Model 2:
+Testing MSE:
+0.00022299532099061435
+Testing MAE:
+0.012554354496525174
+
+Model 3:
+Testing MSE:
+0.00018767682695386854
+Testing MAE:
+0.01205727738814861
+

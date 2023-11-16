@@ -1,0 +1,33 @@
+==========================
+travel
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:1124.6799999999994
+min:482
+max:4298
+median:802.5
+
+Rating
+avg:3.9197999999999973
+min:3.47
+max:4.29
+median:3.92
+
+Publication Date
+avg:1988.58
+min:1869
+max:2016
+median:1998.0
+
+Number of Ratings
+avg:133826.93999999983
+min:6367
+max:1705556
+median:23627.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 2.0%
+

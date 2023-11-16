@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for manga genre.
+Model 1:
+Testing MSE:
+0.002946836258070345
+Testing MAE:
+0.0493556179122364
+
+Model 2:
+Testing MSE:
+0.002946836258070345
+Testing MAE:
+0.0493556179122364
+
+Model 3:
+Testing MSE:
+0.002946836258070345
+Testing MAE:
+0.0493556179122364
+

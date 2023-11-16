@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for urban-fantasy genre.
+Model 1:
+Testing MSE:
+0.00014793684127362573
+Testing MAE:
+0.008511225683814577
+
+Model 2:
+Testing MSE:
+0.00014793684127362573
+Testing MAE:
+0.008511225683814577
+
+Model 3:
+Testing MSE:
+0.00014793684127362573
+Testing MAE:
+0.008511225683814577
+

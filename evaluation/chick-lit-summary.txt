@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for chick-lit genre.
+Model 1:
+Testing MSE:
+3.7504997952749e-05
+Testing MAE:
+0.00514835795142605
+
+Model 2:
+Testing MSE:
+3.7504997952749e-05
+Testing MAE:
+0.00514835795142605
+
+Model 3:
+Testing MSE:
+3.7504997952749e-05
+Testing MAE:
+0.00514835795142605
+

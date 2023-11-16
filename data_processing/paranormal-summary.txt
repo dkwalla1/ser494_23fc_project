@@ -1,0 +1,33 @@
+==========================
+paranormal
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:2767.0799999999995
+min:1946
+max:6365
+median:2491.0
+
+Rating
+avg:4.078799999999983
+min:3.59
+max:4.43
+median:4.085
+
+Publication Date
+avg:2007.9
+min:2001
+max:2012
+median:2008.0
+
+Number of Ratings
+avg:594926.92
+min:72858
+max:6318771
+median:319824.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 99.875%
+

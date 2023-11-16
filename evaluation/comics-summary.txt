@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for comics genre.
+Model 1:
+Testing MSE:
+0.00012302790643295582
+Testing MAE:
+0.009223880411295281
+
+Model 2:
+Testing MSE:
+0.00012302790643295582
+Testing MAE:
+0.009223880411295281
+
+Model 3:
+Testing MSE:
+0.0001295888982664224
+Testing MAE:
+0.009252568617510974
+

@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for lgbt genre.
+Model 1:
+Testing MSE:
+6.153005811573416e-05
+Testing MAE:
+0.006558452976110726
+
+Model 2:
+Testing MSE:
+6.153005811573416e-05
+Testing MAE:
+0.006558452976110726
+
+Model 3:
+Testing MSE:
+5.99847714379437e-05
+Testing MAE:
+0.006354551335262332
+

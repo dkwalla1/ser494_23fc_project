@@ -1,0 +1,33 @@
+==========================
+true-crime
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:1441.2600000000011
+min:638
+max:6090
+median:972.0
+
+Rating
+avg:4.018400000000001
+min:3.46
+max:4.45
+median:4.06
+
+Publication Date
+avg:2004.86
+min:1959
+max:2022
+median:2009.5
+
+Number of Ratings
+avg:85594.98000000007
+min:7831
+max:659928
+median:24212.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 2.0%
+

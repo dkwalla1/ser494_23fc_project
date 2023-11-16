@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for dystopian genre.
+Model 1:
+Testing MSE:
+2.045168245922467e-05
+Testing MAE:
+0.003725929807984899
+
+Model 2:
+Testing MSE:
+2.0633367638262166e-05
+Testing MAE:
+0.0037355119743231685
+
+Model 3:
+Testing MSE:
+2.2235926689110403e-05
+Testing MAE:
+0.003972204896856045
+

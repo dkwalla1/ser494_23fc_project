@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for high-fantasy genre.
+Model 1:
+Testing MSE:
+7.625302726696648e-07
+Testing MAE:
+0.000684579211300615
+
+Model 2:
+Testing MSE:
+7.707555509493437e-07
+Testing MAE:
+0.0006788075841239689
+
+Model 3:
+Testing MSE:
+8.794330850589288e-07
+Testing MAE:
+0.0007306011045718543
+

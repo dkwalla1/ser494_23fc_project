@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for legal-thriller genre.
+Model 1:
+Testing MSE:
+5.963860469304668e-07
+Testing MAE:
+0.0006078943600347773
+
+Model 2:
+Testing MSE:
+5.963860469304668e-07
+Testing MAE:
+0.0006078943600347773
+
+Model 3:
+Testing MSE:
+5.920655032833661e-07
+Testing MAE:
+0.0005973460030771382
+

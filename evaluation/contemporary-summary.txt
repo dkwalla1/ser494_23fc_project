@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for contemporary genre.
+Model 1:
+Testing MSE:
+3.811511567001568e-05
+Testing MAE:
+0.003452353292992853
+
+Model 2:
+Testing MSE:
+3.811511567001568e-05
+Testing MAE:
+0.003452353292992853
+
+Model 3:
+Testing MSE:
+3.811511567001568e-05
+Testing MAE:
+0.003452353292992853
+

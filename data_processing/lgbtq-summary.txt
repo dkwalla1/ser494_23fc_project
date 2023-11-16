@@ -1,0 +1,33 @@
+==========================
+lgbtq
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:2473.759999999996
+min:1343
+max:6789
+median:1818.5
+
+Rating
+avg:4.163599999999994
+min:3.71
+max:4.62
+median:4.17
+
+Publication Date
+avg:2016.06
+min:1956
+max:2022
+median:2019.0
+
+Number of Ratings
+avg:329290.2237500001
+min:44839
+max:2578637
+median:136151.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 42.0%
+

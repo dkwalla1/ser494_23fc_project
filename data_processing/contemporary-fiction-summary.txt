@@ -1,0 +1,33 @@
+==========================
+contemporary-fiction
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:608.8999999999995
+min:414
+max:1045
+median:561.5
+
+Rating
+avg:4.104800000000006
+min:3.8
+max:4.48
+median:4.09
+
+Publication Date
+avg:2010.6
+min:1985
+max:2022
+median:2012.5
+
+Number of Ratings
+avg:1304345.3546666678
+min:9165
+max:4917622
+median:972275.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 16.0%
+

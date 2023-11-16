@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for fantasy genre.
+Model 1:
+Testing MSE:
+0.00017011012293799513
+Testing MAE:
+0.010844912644358775
+
+Model 2:
+Testing MSE:
+0.00016986769547600576
+Testing MAE:
+0.010754657478609478
+
+Model 3:
+Testing MSE:
+0.00017877557364156258
+Testing MAE:
+0.010956331223284274
+

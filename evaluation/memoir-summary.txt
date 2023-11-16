@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for memoir genre.
+Model 1:
+Testing MSE:
+3.4398146610692585e-05
+Testing MAE:
+0.004167676201814194
+
+Model 2:
+Testing MSE:
+3.4398146610692585e-05
+Testing MAE:
+0.004167676201814194
+
+Model 3:
+Testing MSE:
+3.709278270413251e-05
+Testing MAE:
+0.004459609897405079
+

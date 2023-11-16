@@ -1,0 +1,33 @@
+==========================
+action
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:382.857142857143
+min:225
+max:1511
+median:289.0
+
+Rating
+avg:4.200408163265307
+min:3.6
+max:4.62
+median:4.16
+
+Publication Date
+avg:2005.734693877551
+min:1980
+max:2016
+median:2008.0
+
+Number of Ratings
+avg:1726137.6198979593
+min:32248
+max:9591265
+median:942481.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 97.83163265306123%
+

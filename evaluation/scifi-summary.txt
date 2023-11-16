@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for scifi genre.
+Model 1:
+Testing MSE:
+7.293875421004928e-06
+Testing MAE:
+0.0022039502001258123
+
+Model 2:
+Testing MSE:
+7.608620503543076e-06
+Testing MAE:
+0.0022600688220270524
+
+Model 3:
+Testing MSE:
+1.1147905098868575e-05
+Testing MAE:
+0.0030103947261124523
+

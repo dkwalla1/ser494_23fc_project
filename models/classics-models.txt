@@ -1,0 +1,12 @@
+classics models (first number is coefficient, second in intercept, third is MSE, last is MAE.)
+model trained on all dates:
+-1.2832994951738235e-05
+0.04581781386434869
+9.2923248188788e-05
+0.007720304807564082
+model trained on dates after 1940:
+5.95691949134928e-05
+-0.10349234061117266
+1.7487224380825166e-05
+0.00310909534590909
+The classics genre does not have enough books after 1990.

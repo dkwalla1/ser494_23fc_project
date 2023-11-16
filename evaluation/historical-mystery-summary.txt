@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for historical-mystery genre.
+Model 1:
+Testing MSE:
+4.377875593760146e-05
+Testing MAE:
+0.005678340550697704
+
+Model 2:
+Testing MSE:
+4.377875593760146e-05
+Testing MAE:
+0.005678340550697704
+
+Model 3:
+Testing MSE:
+4.943982794940318e-05
+Testing MAE:
+0.006349670068790653
+

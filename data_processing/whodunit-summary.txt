@@ -1,0 +1,33 @@
+==========================
+whodunit
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:35.8
+min:21
+max:132
+median:28.0
+
+Rating
+avg:3.997000000000012
+min:3.63
+max:4.39
+median:3.9699999999999998
+
+Publication Date
+avg:1972.32
+min:1887
+max:2022
+median:1963.0
+
+Number of Ratings
+avg:488222.42375
+min:37364
+max:3095065
+median:242437.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 76.0%
+

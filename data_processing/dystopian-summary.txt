@@ -1,0 +1,33 @@
+==========================
+dystopian
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:5400.163265306115
+min:2190
+max:16770
+median:3917.0
+
+Rating
+avg:4.0061224489795855
+min:3.52
+max:4.47
+median:4.01
+
+Publication Date
+avg:2004.857142857143
+min:1932
+max:2020
+median:2011.0
+
+Number of Ratings
+avg:977785.3329081631
+min:113922
+max:4374328
+median:493037.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 85.58673469387756%
+

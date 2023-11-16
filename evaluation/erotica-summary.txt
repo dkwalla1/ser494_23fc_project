@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for erotica genre.
+Model 1:
+Testing MSE:
+0.0001030713509058025
+Testing MAE:
+0.008273444619451484
+
+Model 2:
+Testing MSE:
+0.0001030713509058025
+Testing MAE:
+0.008273444619451484
+
+Model 3:
+Testing MSE:
+9.016440921526554e-05
+Testing MAE:
+0.006494988313891524
+

@@ -1,0 +1,33 @@
+==========================
+suspense
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:818.4
+min:446
+max:2406
+median:657.0
+
+Rating
+avg:3.9982000000000038
+min:3.59
+max:4.34
+median:3.965
+
+Publication Date
+avg:2006.5
+min:1938
+max:2022
+median:2012.5
+
+Number of Ratings
+avg:1060800.8799999987
+min:26396
+max:8223307
+median:601884.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 38.0%
+

@@ -1,0 +1,33 @@
+==========================
+graphic-novels
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:4797.600000000011
+min:3115
+max:10662
+median:4321.0
+
+Rating
+avg:4.206600000000006
+min:3.69
+max:4.62
+median:4.245
+
+Publication Date
+avg:2006.52
+min:1980
+max:2021
+median:2011.5
+
+Number of Ratings
+avg:167170.30999999982
+min:36836
+max:639891
+median:113974.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 24.0%
+

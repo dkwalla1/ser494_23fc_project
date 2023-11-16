@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for poetry genre.
+Model 1:
+Testing MSE:
+0.004772654805011099
+Testing MAE:
+0.05124744174499142
+
+Model 2:
+Testing MSE:
+0.006031585916979436
+Testing MAE:
+0.06272500968805522
+
+Model 3:
+Testing MSE:
+0.007441538160570798
+Testing MAE:
+0.07496830627565766
+

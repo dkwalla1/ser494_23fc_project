@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for graphic-novels genre.
+Model 1:
+Testing MSE:
+0.0002984074195896785
+Testing MAE:
+0.013840402158163798
+
+Model 2:
+Testing MSE:
+0.0002984074195896785
+Testing MAE:
+0.013840402158163798
+
+Model 3:
+Testing MSE:
+0.00034069027983790474
+Testing MAE:
+0.014857117949579952
+

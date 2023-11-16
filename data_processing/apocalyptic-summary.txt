@@ -1,0 +1,33 @@
+==========================
+apocalyptic
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:239.42
+min:129
+max:690
+median:191.5
+
+Rating
+avg:4.0216
+min:3.65
+max:4.35
+median:4.01
+
+Publication Date
+avg:1999.54
+min:1949
+max:2018
+median:2010.0
+
+Number of Ratings
+avg:610447.3574999997
+min:24969
+max:8223307
+median:134249.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 60.0%
+

@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for true-crime genre.
+Model 1:
+Testing MSE:
+0.0005717131554606118
+Testing MAE:
+0.021024208126816404
+
+Model 2:
+Testing MSE:
+0.0005717131554606118
+Testing MAE:
+0.021024208126816404
+
+Model 3:
+Testing MSE:
+0.0005480190230029714
+Testing MAE:
+0.020672681479367894
+

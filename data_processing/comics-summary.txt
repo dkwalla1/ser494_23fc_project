@@ -1,0 +1,33 @@
+==========================
+comics
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:3107.2000000000025
+min:2022
+max:8932
+median:2537.5
+
+Rating
+avg:4.2514000000000065
+min:3.82
+max:4.59
+median:4.26
+
+Publication Date
+avg:2001.34
+min:1980
+max:2018
+median:2003.0
+
+Number of Ratings
+avg:135309.5437500001
+min:48509
+max:639891
+median:85604.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 10.0%
+

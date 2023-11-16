@@ -3,31 +3,31 @@ classics
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:28627.74000000001
+avg:28670.18
 min:15724
-max:67441
-median:25121.0
+max:68056
+median:25235.5
 
 Rating
-avg:3.9962000000000004
+avg:4.001000000000003
 min:3.43
 max:4.32
 median:3.995
 
 Publication Date
-avg:1822.1
+avg:1823.96
 min:700
 max:1969
-median:1877.0
+median:1881.0
 
 Number of Ratings
-avg:1659321.3
-min:338881
-max:5844875
-median:1068290.5
+avg:1673321.87
+min:339883
+max:5863087
+median:1114724.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
 Percent of books in series: 4.0%
 

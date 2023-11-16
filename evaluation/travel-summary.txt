@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for travel genre.
+Model 1:
+Testing MSE:
+0.0005069105172786411
+Testing MAE:
+0.017832354691150278
+
+Model 2:
+Testing MSE:
+0.0004906905301614292
+Testing MAE:
+0.01781672833134668
+
+Model 3:
+Testing MSE:
+0.00038900693050962997
+Testing MAE:
+0.015476231518566386
+

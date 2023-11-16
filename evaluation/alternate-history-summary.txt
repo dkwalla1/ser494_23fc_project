@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for alternate-history genre.
+Model 1:
+Testing MSE:
+0.00033174509623699514
+Testing MAE:
+0.015253395450287293
+
+Model 2:
+Testing MSE:
+0.00033174509623699514
+Testing MAE:
+0.015253395450287293
+
+Model 3:
+Testing MSE:
+0.0002479872741453478
+Testing MAE:
+0.012525441017224524
+

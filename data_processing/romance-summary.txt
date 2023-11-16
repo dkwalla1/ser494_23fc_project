@@ -3,31 +3,31 @@ romance
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:10242.080000000002
-min:6564
-max:20173
-median:9047.0
+avg:9986.260000000002
+min:6321
+max:18464
+median:8930.5
 
 Rating
-avg:4.036599999999998
+avg:4.042199999999999
 min:3.59
 max:4.64
 median:4.02
 
 Publication Date
-avg:1998.86
+avg:1998.76
 min:1811
 max:2023
 median:2014.0
 
 Number of Ratings
-avg:1219768.46
-min:156032
-max:6301180
-median:917366.0
+avg:1211188.2324999997
+min:156985
+max:6318746
+median:880603.0
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 56.00000000000001%
+Percent of books in series: 62.0%
 

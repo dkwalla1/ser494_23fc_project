@@ -1,31 +1,124 @@
 fiction
 non-fiction
+nonfiction
 
 historical
-
 young-adult
+middle-grade
+satire
+humor
+action
+short-story
+cozy
+poetry
+
+#testing similar named genres
+contemporary
+contemporary-fiction
+literary
+literary-fiction
+literary-non-fiction
+literary-nonfiction
+#comic
+#comics
+graphic-novel
+graphic-novels
+lgbt
+lgbtq
+#post-apocalyptic
+#apocalyptic
+#scifi
+#science-fiction
+#sci-fi
+#non-fiction
+#nonfiction
+#legal
+#legal-thriller
+#urban-fantasy
+#low-fantasy
 
 #sub-fictional
 romance
 fantasy
 scifi
+science-fiction
+sci-fi
 classics
 mystery
 thriller
+horror
+western
+comic
+comics
+manga
+adventure
+pulp
+paranormal
+steampunk
+heist
+suspense
+#literary-fiction
+contemporary-fiction
 
 #sub-fantasy (sub-sub-fictional)
 alternate-history
 fairy-tale
 grimdark
 epic-fantasy
+high-fantasy
 urban-fantasy
+low-fantasy
+cosmere
+#fantasy-romance
 
 #sub-mystery (sub-sub-fictional)
 caper
 cozy-mystery
+detective
+noir
+whodunit
+historical-mystery
+mystery-thriller
+
+#sub-scifi
+dystopian
+utopian
+space-opera
+cyberpunk
+post-apocalyptic
+apocalyptic
+time-travel
+
+#sub-thriller
+legal
+legal-thriller
+horror-thriller
+#mystery-thriller
+
+#sub-romance
+historical-romance
+contemporary-romance
+paranormal-romance
+dark-romance
+erotic-romance
+erotica
+fantasy-romance
+chick-lit
 
 #sub-non-fictional
 philosophy
 biography
 psychology
 memoir
+parenting
+religion
+self-help
+travel
+true-crime
+#literary-non-fiction
+#literary-nonfiction
+
+#Source: https://brookevitale.com/blog/book-genres#action-and-adventure-fiction
+#Souces: https://writersedit.com/fiction-writing/ultimate-guide-navigating-genres-subgenres/
+#Source: https://screenwritingmagazine.com/2017/07/14/8-thriller-subgenres-explore-writing-thriller/
+#Source: 

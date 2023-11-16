@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for whodunit genre.
+Model 1:
+Testing MSE:
+3.01876090189343e-08
+Testing MAE:
+0.00014130815426757155
+
+Model 2:
+Testing MSE:
+1.3578275821018154e-08
+Testing MAE:
+9.034184909197042e-05
+
+Model 3:
+Testing MSE:
+8.723317763151337e-09
+Testing MAE:
+6.765276795376224e-05
+

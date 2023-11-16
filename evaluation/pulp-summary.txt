@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for pulp genre.
+Model 1:
+Testing MSE:
+0.00015888581841682492
+Testing MAE:
+0.007569608392771267
+
+Model 2:
+Testing MSE:
+0.00027569088215586077
+Testing MAE:
+0.008722893602581633
+
+Model 3:
+Testing MSE:
+0.0003045524964066848
+Testing MAE:
+0.011816163457080552
+

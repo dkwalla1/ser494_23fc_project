@@ -1,0 +1,33 @@
+==========================
+adventure
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:1912.06
+min:1125
+max:3831
+median:1682.5
+
+Rating
+avg:4.186800000000006
+min:3.68
+max:4.62
+median:4.23
+
+Publication Date
+avg:1966.7
+min:1719
+max:2015
+median:1997.5
+
+Number of Ratings
+avg:2004712.5799999996
+min:193669
+max:9591311
+median:1187774.0
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 67.875%
+

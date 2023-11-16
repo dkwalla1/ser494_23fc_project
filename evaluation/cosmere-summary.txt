@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for cosmere genre.
+Model 1:
+Testing MSE:
+0.024020893053141732
+Testing MAE:
+0.09359998482650345
+
+Model 2:
+Testing MSE:
+0.024020893053141732
+Testing MAE:
+0.09359998482650345
+
+Model 3:
+Testing MSE:
+0.024020893053141732
+Testing MAE:
+0.09359998482650345
+

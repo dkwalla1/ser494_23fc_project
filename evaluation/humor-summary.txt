@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for humor genre.
+Model 1:
+Testing MSE:
+2.6693215962045085e-05
+Testing MAE:
+0.003980335808188606
+
+Model 2:
+Testing MSE:
+2.6451251270748638e-05
+Testing MAE:
+0.003934081207115274
+
+Model 3:
+Testing MSE:
+3.3933555679871456e-05
+Testing MAE:
+0.004624330315320829
+

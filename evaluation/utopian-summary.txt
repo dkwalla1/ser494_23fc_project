@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for utopian genre.
+Model 1:
+Testing MSE:
+5.384413021203643e-06
+Testing MAE:
+0.0013422238282240298
+
+Model 2:
+Testing MSE:
+2.1288884825829192e-07
+Testing MAE:
+0.00024537491092952444
+
+Model 3:
+Testing MSE:
+1.069976040247469e-08
+Testing MAE:
+5.74857657063741e-05
+

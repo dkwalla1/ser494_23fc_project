@@ -3,31 +3,31 @@ cozy-mystery
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:307.8999999999998
-min:214
-max:709
-median:274.0
+avg:310.1399999999997
+min:216
+max:717
+median:275.5
 
 Rating
-avg:3.816200000000001
+avg:3.813800000000005
 min:3.5
 max:4.23
 median:3.835
 
 Publication Date
-avg:2007.06
+avg:2007.22
 min:1975
 max:2023
-median:2009.0
+median:2009.5
 
 Number of Ratings
-avg:28351.69999999999
-min:4141
-max:394552
-median:11600.5
+avg:25501.100000000006
+min:4168
+max:403163
+median:11426.0
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 97.5%
+Percent of books in series: 97.875%
 

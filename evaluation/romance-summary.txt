@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for romance genre.
+Model 1:
+Testing MSE:
+8.133783768624646e-05
+Testing MAE:
+0.006526636523580508
+
+Model 2:
+Testing MSE:
+8.05482526583702e-05
+Testing MAE:
+0.006552298421485173
+
+Model 3:
+Testing MSE:
+8.05482526583702e-05
+Testing MAE:
+0.006552298421485173
+

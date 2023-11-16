@@ -1,0 +1,33 @@
+==========================
+post-apocalyptic
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:713.04
+min:357
+max:2279
+median:533.5
+
+Rating
+avg:4.023399999999989
+min:3.6
+max:4.35
+median:4.01
+
+Publication Date
+avg:1999.52
+min:1949
+max:2015
+median:2009.5
+
+Number of Ratings
+avg:660995.0400000005
+min:29217
+max:8223307
+median:146427.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 74.0%
+

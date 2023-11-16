@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for contemporary-romance genre.
+Model 1:
+Testing MSE:
+2.5319806024194592e-05
+Testing MAE:
+0.003651992492924279
+
+Model 2:
+Testing MSE:
+2.5319806024194592e-05
+Testing MAE:
+0.003651992492924279
+
+Model 3:
+Testing MSE:
+2.5319806024194592e-05
+Testing MAE:
+0.003651992492924279
+

@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for space-opera genre.
+Model 1:
+Testing MSE:
+1.9729156463796506e-05
+Testing MAE:
+0.00335826367422231
+
+Model 2:
+Testing MSE:
+1.9729156463796506e-05
+Testing MAE:
+0.00335826367422231
+
+Model 3:
+Testing MSE:
+1.9860206364187003e-05
+Testing MAE:
+0.003142608539028085
+

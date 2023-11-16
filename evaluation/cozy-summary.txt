@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for cozy genre.
+Model 1:
+Testing MSE:
+8.732029757106078e-05
+Testing MAE:
+0.006173682297506969
+
+Model 2:
+Testing MSE:
+8.676481614705471e-05
+Testing MAE:
+0.006161668994163519
+
+Model 3:
+Testing MSE:
+9.296676527282752e-05
+Testing MAE:
+0.006491552355803461
+

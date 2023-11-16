@@ -1,0 +1,13 @@
+Mean Squared Error and Mean Absolute Error for classics genre.
+Model 1:
+Testing MSE:
+9.2923248188788e-05
+Testing MAE:
+0.007720304807564082
+
+Model 2:
+Testing MSE:
+1.7487224380825166e-05
+Testing MAE:
+0.00310909534590909
+

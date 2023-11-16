@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for psychology genre.
+Model 1:
+Testing MSE:
+0.0006077739166514855
+Testing MAE:
+0.0187627370374452
+
+Model 2:
+Testing MSE:
+0.0004382262539347594
+Testing MAE:
+0.016068821519903402
+
+Model 3:
+Testing MSE:
+0.00036673086297115667
+Testing MAE:
+0.014150106675269695
+

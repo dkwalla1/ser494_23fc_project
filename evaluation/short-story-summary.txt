@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for short-story genre.
+Model 1:
+Testing MSE:
+8.80861471003163e-06
+Testing MAE:
+0.00250421165078086
+
+Model 2:
+Testing MSE:
+9.619706599161363e-06
+Testing MAE:
+0.0027641098076804315
+
+Model 3:
+Testing MSE:
+9.801492015656329e-06
+Testing MAE:
+0.0027336259022599854
+

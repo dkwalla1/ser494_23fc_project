@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for literary-non-fiction genre.
+Model 1:
+Testing MSE:
+0.00022684764029692937
+Testing MAE:
+0.008183908007997679
+
+Model 2:
+Testing MSE:
+0.00023663427413996433
+Testing MAE:
+0.00847498555089603
+
+Model 3:
+Testing MSE:
+0.0002495215105096504
+Testing MAE:
+0.008704709224742002
+

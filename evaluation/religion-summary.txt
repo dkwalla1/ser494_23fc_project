@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for religion genre.
+Model 1:
+Testing MSE:
+0.00045914717788172034
+Testing MAE:
+0.017212831053149975
+
+Model 2:
+Testing MSE:
+0.0005315742526459402
+Testing MAE:
+0.019319569091428682
+
+Model 3:
+Testing MSE:
+0.0005894823646238063
+Testing MAE:
+0.020468321682113048
+

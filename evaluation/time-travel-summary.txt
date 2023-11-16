@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for time-travel genre.
+Model 1:
+Testing MSE:
+0.00014303184681340188
+Testing MAE:
+0.009882253383554253
+
+Model 2:
+Testing MSE:
+0.0001441288121756718
+Testing MAE:
+0.009984160506650805
+
+Model 3:
+Testing MSE:
+0.00011616727470886023
+Testing MAE:
+0.009220115425442517
+

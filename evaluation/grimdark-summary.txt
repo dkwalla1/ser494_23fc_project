@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for grimdark genre.
+Model 1:
+Testing MSE:
+5.2636157617186666e-05
+Testing MAE:
+0.00491059262921032
+
+Model 2:
+Testing MSE:
+5.2636157617186666e-05
+Testing MAE:
+0.00491059262921032
+
+Model 3:
+Testing MSE:
+5.321074829073436e-05
+Testing MAE:
+0.004836705426959316
+

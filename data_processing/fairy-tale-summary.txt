@@ -3,13 +3,13 @@ fairy-tale
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:266.9999999999997
+avg:267.4000000000001
 min:151
-max:846
-median:204.5
+max:848
+median:205.0
 
 Rating
-avg:4.000599999999995
+avg:4.000200000000004
 min:3.54
 max:4.43
 median:4.04
@@ -21,13 +21,13 @@ max:2019
 median:2010.0
 
 Number of Ratings
-avg:195349.86
-min:16651
-max:1835532
-median:90679.0
+avg:196787.11999999994
+min:16655
+max:1883941
+median:91101.5
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 55.50000000000001%
+Percent of books in series: 55.875%
 

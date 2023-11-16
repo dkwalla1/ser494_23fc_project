@@ -3,13 +3,13 @@ young-adult
 ==========================
 
 Number of times the books have been shelved in that genre shelf
-avg:13454.620000000003
-min:7844
-max:34178
-median:11419.5
+avg:13474.04
+min:7850
+max:34245
+median:11431.5
 
 Rating
-avg:4.0992
+avg:4.0994
 min:3.59
 max:4.62
 median:4.085
@@ -21,13 +21,13 @@ max:2017
 median:2008.5
 
 Number of Ratings
-avg:2036949.6999999983
-min:355101
-max:9555886
-median:1372115.5
+avg:2044512.8525000003
+min:356598
+max:9591265
+median:1376204.0
 
 Series
-There are two categories here: In a Series+ str(or Not in a Series
+There are two categories here: In a Series or Not in a Series
 I just have the percentage here since most and least frequent are trivial to understand from this :)
-Percent of books in series: 77.5%
+Percent of books in series: 77.875%
 

@@ -1,0 +1,33 @@
+==========================
+high-fantasy
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:944.62
+min:559
+max:1985
+median:867.5
+
+Rating
+avg:4.3026000000000115
+min:3.78
+max:4.76
+median:4.29
+
+Publication Date
+avg:2003.02
+min:1937
+max:2019
+median:2009.5
+
+Number of Ratings
+avg:754354.1599999997
+min:176332
+max:3793122
+median:525440.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 95.875%
+

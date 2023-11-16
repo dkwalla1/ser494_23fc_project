@@ -1,0 +1,33 @@
+==========================
+heist
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:56.74
+min:15
+max:586
+median:23.0
+
+Rating
+avg:4.029599999999997
+min:3.48
+max:4.6
+median:4.029999999999999
+
+Publication Date
+avg:2012.627356997369
+min:1962
+max:2022
+median:2016.0
+
+Number of Ratings
+avg:90903.31999999992
+min:1381
+max:879680
+median:26642.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 75.875%
+

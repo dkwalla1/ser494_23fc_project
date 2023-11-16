@@ -1,0 +1,19 @@
+Mean Squared Error and Mean Absolute Error for steampunk genre.
+Model 1:
+Testing MSE:
+0.002360404926844029
+Testing MAE:
+0.04013746971915738
+
+Model 2:
+Testing MSE:
+0.002360404926844029
+Testing MAE:
+0.04013746971915738
+
+Model 3:
+Testing MSE:
+0.002372039632021503
+Testing MAE:
+0.039820543731319755
+

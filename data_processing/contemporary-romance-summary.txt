@@ -1,0 +1,33 @@
+==========================
+contemporary-romance
+==========================
+
+Number of times the books have been shelved in that genre shelf
+avg:1043.1199999999992
+min:709
+max:2034
+median:913.0
+
+Rating
+avg:4.012999999999994
+min:3.62
+max:4.29
+median:4.01
+
+Publication Date
+avg:2014.28
+min:1994
+max:2022
+median:2015.0
+
+Number of Ratings
+avg:478621.06000000006
+min:32655
+max:2906445
+median:266583.5
+
+Series
+There are two categories here: In a Series or Not in a Series
+I just have the percentage here since most and least frequent are trivial to understand from this :)
+Percent of books in series: 60.0%
+
