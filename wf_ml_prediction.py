@@ -14,25 +14,29 @@ def predict(genre, avg):
     with open('.' + os.sep + 'prediction'  + os.sep + genre + '-predictions.txt', 'w') as file:
         print(f"\n{genre}:")
         file.write(f"\n {genre} average: {avg} ({avg * 1000 })\n")
-        for i in range(3):
-            print(f"Model {i+1} predictions:")
-            file.write(f"Model {i+1} predictions:\n")
+        for i in range(4):
+            print(f"Model {i} predictions:")
+            file.write(f"Model {i} predictions:\n")
             for date in dates_to_test:
                 if models[i] == None:
-                    file.write(f"There wasn't enough books to train this model.")
+                    file.write(f"There wasn't enough books to train this model.\n")
                     continue
-                if i == 1 and date < 1940:
-                    file.write(f"{date}: This model wasn't tranied for this date.")
+                if i == 2 and date < 1940:
+                    file.write(f"{date}: This model wasn't tranied for this date.\n")
                     continue
-                if (i == 2 and date < 1990):
-                    file.write(f"{date}: This model wasn't tranied for this date.")
+                if (i == 3 and date < 1990):
+                    file.write(f"{date}: This model wasn't tranied for this date.\n")
                     continue
-                prediction = models[i][0]*date + models[i][1]
-                print(f"{date}: {prediction} ({prediction * 1000})\n")
-                file.write(f"{date}: {prediction} ({prediction * 1000})\n")
-    if models[2] == None:
+                if i != 0:
+                    prediction = models[i][0]*date + models[i][1]
+                    print(f"{date}: {prediction} ({prediction * 1000})\n")
+                    file.write(f"{date}: {prediction} ({prediction * 1000})\n")
+                else:
+                    print(f"{date}: {models[i][0]} ({models[i][0] * 1000})\n")
+                    file.write(f"{date}: {models[i][0]} ({models[i][0] * 1000})\n")
+    if models[3] == None:
         return (genre, None)
-    return (genre, models[2][0])
+    return (genre, models[3][0])
 
 def import_processed_books(filename):
     with open(filename, 'rb') as infile:
@@ -63,7 +67,6 @@ print(coeffs)
 fig, ax = plt.subplots()
 ax.set(title='Model Coefficient Comparison', ylabel='Model Coefficient', xlabel='Genre')
 ax.bar(coeffs[0], coeffs[1])
-ax.bar(coeffs[0], coeffs[2])
 fig.set_figwidth(150)
 fig.set_figheight(10)
 plt.savefig('.'  + os.sep + 'evaluation'  + os.sep + '_ModelCoefficientComparison.png')

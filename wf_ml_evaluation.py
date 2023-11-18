@@ -30,6 +30,7 @@ def split_all_data(genres):
 def split_data_and_produce_models(books, genre):
     RERUN_OVERALL_SUMMARY = False #you have to delete the current values in _overall-summary since it will just append to it before changing this to True
     FRACTION_TRAINING = 0.8
+    average = books['shelved_avg'] / books['num_ratings_avg']
 
     books = pd.DataFrame.from_dict(books['books'], orient="index")
     books = books[['pub_date', 'shelved', 'num_ratings']]
@@ -73,7 +74,7 @@ def split_data_and_produce_models(books, genre):
         print(f"\n\n\n\nThe {genre} genre has too few books for all models to be produced")
         print(training_books, len(training_books))
 
-    produce_models(genre, training_books, training_books_late, training_books_later, testing_books, testing_books_late, testing_books_later)
+    produce_models(genre, training_books, training_books_late, training_books_later, testing_books, testing_books_late, testing_books_later, average)
     
     models = read_model(genre)
     with open('.' + os.sep + 'evaluation'  + os.sep + genre + '-summary.txt', 'w') as file:
@@ -81,7 +82,7 @@ def split_data_and_produce_models(books, genre):
         for m, model in enumerate(models):
             if model == None:
                 continue
-            file.write(f"Model {m+1}:\n")
+            file.write(f"Model {m}:\n")
 
             file.write("Testing MSE:\n")
             file.write(f"{model[2]}\n")
@@ -102,40 +103,45 @@ def read_model(genre):
     with open('.' + os.sep + 'models'  + os.sep + genre + '-models.txt', 'r') as file:
         lines = file.readlines()
 
-    coef1 = float(lines[2].replace('\n', ''))
-    intercept1 = float(lines[3].replace('\n', ''))
-    MSE1 = float(lines[4].replace('\n', ''))
-    MAE1 = float(lines[5].replace('\n', ''))
+    coef_base = float(lines[2].replace('\n', ''))
+    intercept_base = float(lines[3].replace('\n', ''))
+    MSE_base = float(lines[4].replace('\n', ''))
+    MAE_base = float(lines[5].replace('\n', ''))
+
+    coef1 = float(lines[7].replace('\n', ''))
+    intercept1 = float(lines[8].replace('\n', ''))
+    MSE1 = float(lines[9].replace('\n', ''))
+    MAE1 = float(lines[10].replace('\n', ''))
     # print(coef1)
     # print(intercept1)
     # print(MSE1)
     # print(MAE1)
 
     #Doesn't read the data if there wasn't enough books to produce it
-    if (lines[6].startswith('T')):
-        return [(coef1, intercept1, MSE1, MAE1), None, None]
-    coef2 = float(lines[7].replace('\n', ''))
-    intercept2 = float(lines[8].replace('\n', ''))
-    MSE2 = float(lines[9].replace('\n', ''))
-    MAE2 = float(lines[10].replace('\n', ''))
+    if (lines[11].startswith('T')):
+        return [(coef_base, intercept_base, MSE_base, MAE_base), (coef1, intercept1, MSE1, MAE1), None, None]
+    coef2 = float(lines[12].replace('\n', ''))
+    intercept2 = float(lines[13].replace('\n', ''))
+    MSE2 = float(lines[14].replace('\n', ''))
+    MAE2 = float(lines[15].replace('\n', ''))
     # print(coef2)
     # print(intercept2)
     # print(MSE2)
     # print(MAE2)
 
     #Doesn't read the data if there wasn't enough books to produce it
-    if (lines[11].startswith('T')):
-        return [(coef1, intercept1, MSE1, MAE1), (coef2, intercept2, MSE2, MAE2), None]
-    coef3 = float(lines[12].replace('\n', ''))
-    intercept3 = float(lines[13].replace('\n', ''))
-    MSE3 = float(lines[14].replace('\n', ''))
-    MAE3 = float(lines[15].replace('\n', ''))
+    if (lines[16].startswith('T')):
+        return [(coef_base, intercept_base, MSE_base, MAE_base), (coef1, intercept1, MSE1, MAE1), (coef2, intercept2, MSE2, MAE2), None]
+    coef3 = float(lines[17].replace('\n', ''))
+    intercept3 = float(lines[18].replace('\n', ''))
+    MSE3 = float(lines[19].replace('\n', ''))
+    MAE3 = float(lines[20].replace('\n', ''))
     # print(coef3)
     # print(intercept3)
     # print(MSE3)
     # print(MAE3)
 
-    return [(coef1, intercept1, MSE1, MAE1), (coef2, intercept2, MSE2, MAE2), (coef3, intercept3, MSE3, MAE3)]
+    return [(coef_base, intercept_base, MSE_base, MAE_base), (coef1, intercept1, MSE1, MAE1), (coef2, intercept2, MSE2, MAE2), (coef3, intercept3, MSE3, MAE3)]
 
 genres = []
 

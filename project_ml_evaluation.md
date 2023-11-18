@@ -21,6 +21,11 @@ Interpretation:** Well, I have a collection of models because each genre needs i
 Interpretation:** Well, I have a collection of models because each genre needs its own model and there a whole bunch of genres. For each model, the lower the MAE, the better. The MAE will be the average distance a predicition will be from the actual value. If the MSE if way bigger than the MAE, that shows that there are outliers.
 
 ## Alternative Models
+### Alternative 0/Baseline: Average
+**Construction:** This baseline model is just the average number of times a book was shelved in the genre divided by the average number of ratings on the book. 
+
+**Evaluation:** This baseline model is surprisingly not that different that the other models. It is nearly alwys worse , though for a couple of the genres, it was ever so slightly better. The baseline MSE and MAE were sometimes very large for this baseline, though. Overall, the baseline shows that the linear regression models were better than the baseline but not that much better (though it of course depends on the genre).
+
 ### Alternative 1: All
 **Construction:** This model is trained on all the book data for that genre. As a reminder, the book data is currently the most rated books in that genre. Currently I have the number of books to scrape to be 800 but that might change. So, this model is trained on the data across all 800.
 

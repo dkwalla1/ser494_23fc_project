@@ -5,7 +5,7 @@ from sklearn.impute import SimpleImputer
 import math
 import os
 
-def produce_models(genre, training_books, training_books_late, training_books_later, testing_books, testing_books_late, testing_books_later):
+def produce_models(genre, training_books, training_books_late, training_books_later, testing_books, testing_books_late, testing_books_later, average):
     if (len(training_books) < 30):
         print("There are not enough books in general.... this is bad... should not happen")
         with open('.' + os.sep + 'models'  + os.sep + genre + '-models.txt', 'w') as file:
@@ -48,6 +48,12 @@ def produce_models(genre, training_books, training_books_late, training_books_la
     print(f"{genre} model: y={coef1}x + {intercept1}")
     print("MSE: ", MSE1)
     print("MAE: ", MAE1)
+
+    base_MSE = baseline_MSE(b_test, average)[0]
+    base_MAE = baseline_MAE(b_test, average)[0]
+    print(f"{genre} BASELINE model: y={average}x + 0")
+    print("MSE: ", base_MSE)
+    print("MAE: ", base_MAE)
 
     if (len(testing_books_late) < 30):
         print(f"The {genre} genre does not have enough books after 1940.")
@@ -131,8 +137,14 @@ def produce_models(genre, training_books, training_books_late, training_books_la
         print("MSE: ", MSE3)
         print("MAE: ", MAE3)
 
+
     with open('.' + os.sep + 'models'  + os.sep + genre + '-models.txt', 'w') as file:
         file.write(f"{genre} models (first number is coefficient, second in intercept, third is MSE, last is MAE.)\n")
+        file.write(f"baseline model: average shelved amount divided by average number of ratings:\n")
+        file.write(f"{average}\n")
+        file.write(f"0\n")
+        file.write(f"{base_MSE}\n")
+        file.write(f"{base_MAE}\n")
         file.write(f"model trained on all dates:\n")
         file.write(f"{coef1}\n")
         file.write(f"{intercept1}\n")
@@ -161,6 +173,12 @@ def MSE(A, b, w):
         sum += (yPrime(w, A[i]) - y) ** 2
     return sum / len(b)
 
+def baseline_MSE(b, baseline):
+    sum = 0
+    for i, y in enumerate(b):
+        sum += (baseline - y) ** 2
+    return sum / len(b)
+
 def yPrime(w, x):
     return w[0]*x + w[1]
 
@@ -170,5 +188,8 @@ def MAE(A, b, w):
         sum += abs(yPrime(w, A[i]) - y)
     return sum / len(b)
 
-def yPrime(w, x):
-    return w[0]*x + w[1]
+def baseline_MAE(b, baseline):
+    sum = 0
+    for i, y in enumerate(b):
+        sum += abs(baseline - y)
+    return sum / len(b)
