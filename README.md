@@ -1,7 +1,7 @@
 ﻿# Introduction
 This repository contains files for the individual course project in SER494: Data Science for Software Engineers (2023) created by Dallin Wallace for partial fulfillment of the course requirements.
 
-At this time, this project has not been cleared by the course staff (R. Acuna) for public release, and must be kept within a private repository.
+It was cleared by course staff (R. Acuna) for public release on 12/24/2023.
 
 # Heads, up graders/peer-reviewers!
 Here are some things you might want to know about this project if you are looking through this!
